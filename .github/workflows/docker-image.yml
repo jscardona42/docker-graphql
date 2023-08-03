@@ -27,7 +27,7 @@ jobs:
 
     - name: Build docker image
       run: |
-        docker build -t jscardonag/docker-graphql:0.0.2 .
+        docker build -t jscardonag/docker-graphql:0.0.2
 
     - name: Push docker image
       run: |
